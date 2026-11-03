@@ -307,7 +307,7 @@ def dedupe(nodes):
         seen.add(key)
         out.append(n)
     return out
-
+NODES_URL = os.environ.get("NODES_URL", "https://zhaopengyue861-web.github.io/gate/nodes.txt")
 # ---------------------------------------------------------------------------
 # 检测 Worker
 # ---------------------------------------------------------------------------
